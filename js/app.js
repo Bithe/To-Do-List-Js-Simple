@@ -40,6 +40,10 @@ else{
             // e.target.parentNode.style.display ="none";
             const tbody = document.getElementById('content-container')
             tbody.innerHTML = 'none';
+        //     const tableBody = e.target.parentNode.childNodes[9].childNodes[1].childNodes[3];
+
+        //   tableBody.removeChild(tableBody.childNodes[3]).display ="none";
+        // console.log(tableBody.childNodes[3]);
         });
 
     }
